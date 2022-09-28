@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?android:attr/actionBarSize"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/general_padding">
+
+        <TextView
+            android:id="@+id/tv_simple_singleton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/general_padding"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_builder_singleton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:layout_marginTop="@dimen/general_padding"
+            android:text="@string/main_cta_camera_builder_singleton" />
+
+        <Button
+            android:id="@+id/btn_permission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:text="@string/main_cta_permission" />
+
+        <Button
+            android:id="@+id/btn_camera_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:text="@string/main_cta_camera_x" />
+
+        <Button
+            android:id="@+id/btn_take_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:text="@string/main_cta_take_picture" />
+
+        <Button
+            android:id="@+id/btn_camera_controller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:text="@string/main_cta_camera_save_to_cache" />
+
+        <Button
+            android:id="@+id/btn_camera_save_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:text="@string/main_cta_camera_save_to_storage" />
+
+        <Button
+            android:id="@+id/btn_tensor_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/general_padding"
+            android:text="@string/main_cta_tensor_flow" />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="180dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="@dimen/general_padding"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
+
+</ScrollView>

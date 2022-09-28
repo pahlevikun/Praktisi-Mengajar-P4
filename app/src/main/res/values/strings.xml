@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Praktisi Mengajar P4</string>
+    <string name="main_cta_permission">Permission</string>
+
+    <string name="capture_button_alt">Capture</string>
+    <string name="unknown">UNKNOWN</string>
+    <string name="main_cta_tensor_flow">Tensor Flow</string>
+    <string name="permission_cta_request">Request Permission</string>
+    <string name="main_cta_camera_x">Camera X</string>
+    <string name="main_cta_take_picture">Take Picture</string>
+    <string name="main_cta_camera_save_to_cache">Camera Controller</string>
+    <string name="main_cta_camera_save_to_storage">Camera SaveImage</string>
+    <string name="main_cta_camera_builder_singleton">Check Singleton Count</string>
+</resources>
